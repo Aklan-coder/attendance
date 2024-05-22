@@ -1,0 +1,27 @@
+{
+  "successRequest": {
+    "code": 200,
+    "status": "OK",
+    "message": "Successful",
+    "data": {}
+  },
+  "badRequest": {
+    "code": 400,
+    "status": "BAD REQUEST",
+    "message": "Bad Request",
+    "data": {}
+  },
+  "unauthorizedRequest": {
+    "code": 403,
+    "status": "UNAUTHORIZED",
+    "message": "Unauthorized or Invalid token",
+    "data": {}
+  },
+  "internalServerErrorRequest": {
+    "code": 500,
+    "status": "INTERNAL SERVER ERRROR",
+    "message": "Error occurred while processing",
+    "data": {}
+  }
+
+}
